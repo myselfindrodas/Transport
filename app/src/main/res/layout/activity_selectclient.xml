@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primarycolor"
+    tools:context=".ui.Selectclient">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/qr"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transportation"
+            android:layout_marginTop="-90dp"
+            android:textSize="@dimen/_28sdp"
+            android:fontFamily="@font/futuracyrillicbold"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Select Your Client"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textAlignment="center"
+            android:fontFamily="@font/futuracyrillicdemi"
+            android:textColor="@color/black"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/grey_rounded_shape">
+
+            <Spinner
+                android:id="@+id/spClient"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"/>
+
+        </LinearLayout>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_75sdp"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_75sdp"
+            android:background="@drawable/gradientyellow"
+            android:text="CONTINUE"
+            android:fontFamily="@font/futuracyrillicheavy"
+            android:textColor="@color/black" />
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+</layout>

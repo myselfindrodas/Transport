@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_splashimage"
+        tools:context="com.app.transportation.ui.Splash">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transportation"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:textSize="@dimen/_28sdp"
+            android:fontFamily="@font/futuracyrillicbold"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor"/>
+
+
+    </RelativeLayout>
+</layout>
